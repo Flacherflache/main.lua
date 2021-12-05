@@ -83,7 +83,7 @@ if type(getconnections) ~= 'function' then return fail('Unsupported exploit (mis
 if type(getloadedmodules) ~= 'function' then return fail('Unsupported exploit (misssing "getloadedmodules")') end
 if type(getgc) ~= 'function' then return fail('Unsupported exploit (misssing "getgc")') end
 
-local library = urlLoad("https://raw.githubusercontent.com/wally-rblx/uwuware-ui/main/main.lua")
+local library = urlLoad("https://raw.githubusercontent.com/Flacherflache/Main.lua-Funky-Friday-2/main/Main.lua")
 
 local framework, scrollHandler
 local counter = 0
